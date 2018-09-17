@@ -1,0 +1,273 @@
+body{
+margin: 0;
+font-size: 16px;
+padding: 0;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+header{
+    background: #DDE2EC;
+    padding: 30px 0px;
+}
+.container{}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+    margin-top: 10px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #2d3950;
+    margin-left: 25px;
+}
+nav ul li a:hover{
+	border: 1px dotted blue;
+	border-radius: 4px;
+}
+
+.banner-section{
+    background: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.banner-content{
+    text-align: center;
+    color: white;
+    padding: 250px;
+}
+.banner-content h1{
+    font-size: 6em;
+    margin: 0;
+}
+.banner-content hr{
+    max-width: 500px;
+    border-color: #15a4fa;
+}
+.banner-content p{}
+.banner-content a{
+    text-decoration: none;
+    border: 1px solid #15a4fa;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.banner-content a:hover{
+	 border: 1px solid #15a4fa;
+}
+
+.arrow{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.arrow a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 33px;
+    font-size: 20px;
+    padding: 0px;
+    margin-left: 0px
+    margin-right:0px;
+}
+.arrow a:hover{
+	border:1px dashed blue;
+}
+.aboutus-section{
+    text-align: center;
+    padding: 40px 0;
+    background: #DDE2EC;
+}
+.about-content{}
+.about-content h1{
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 0;
+}
+.about-content p{
+    margin-top: 0;
+    color: gray;
+}
+
+.feature-section{
+    padding: 40px 0;
+    margin: 0 auto;
+}
+.feature{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+.feature img{
+    margin: 0 auto;
+}
+.feature h1{
+    color: black;
+}
+.feature p{
+    color: gray;
+}
+
+.work-section{
+    padding: 40px 0;
+}
+.title{
+	text-align: center;
+	
+}
+.title h1{
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+.title p{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.work-photo{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.work-photo img{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+
+    width: 95%;
+    height: 93%;
+    background: rgba(134, 187, 235, 0.79);
+    opacity: 0;
+    transition: all 5s;
+
+
+}
+.work-photo:hover .overlay{
+	opacity: 1;
+
+
+}
+
+.contact-section{
+    background: url(../images/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+.contact-section .title{
+    text-align: center;
+    color: white;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+form input[type="text"]{
+    width: 100%;
+    border: 1px solid #7F9FDF;
+    border-radius: 5px;
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form input[type="email"]{
+    width: 100%;  border: 1px solid #7F9FDF;  
+    border-radius: 5px;  background: transparent; 
+     padding: 10px;  margin-bottom: 10px;
+}
+form textarea{
+    width: 100%;  border: 1px solid #7F9FDF;  
+    border-radius: 5px;  background: transparent; 
+     padding: 10px;  margin-bottom: 10px;
+}
+form ul{
+    padding: 0;
+    margin: 0;
+}
+form ul li{
+    list-style: none;
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+form ul li span{
+    color: violet;
+}
+form ul li input[type="checkbox"]{
+}
+form ul li input[type="submit"]{
+    float: right;
+    background: transparent;
+    border: 1px solid violet;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+footer{
+    padding: 40px 0;
+}
+.copyright{
+    width: 50%;
+    float: left;
+}
+.copyright p{
+    margin: 0;
+}
+.social{
+    width: 50%;
+    float: left;
+}
+.social ul{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social ul li a{
+    text-decoration: none;
+    padding: 2px 7px;
+    display: block;
+}
+.social ul li a:hover{
+	border:1px solid red;
+	border-radius: 5px;
+}
+
